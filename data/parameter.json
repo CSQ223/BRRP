@@ -1,0 +1,83 @@
+{
+	"Capacity":{
+		"description": "Truck's capacity",
+		"value":30,
+		"unit":"bike"
+	},
+		
+	"Speed":{
+		"description": "Truck's speed",
+		"value":40,
+		"unit":"km/hour"
+	},
+		
+	"SerTime":{
+		"description": "the service time that each bike needed",
+		"value":0.5,
+		"unit":"minute"
+	},
+		
+	"WorkHour":{
+		"description": "Truck's working time limit",
+		"value":3,
+		"unit":"hour"
+	},
+		
+	"FixedCost":{
+		"description": "Truck's fixed cost",
+		"value":50,
+		"unit":"dollar/truck"
+	},
+		
+	"DistanceCost":{
+		"description": "Truck's cost of each kilimeter",
+		"value":0.5,
+		"unit":"dollar/km"
+	},
+	
+	"Panalty":{
+		"description": "panalty of constraints",
+		"value":10000,
+		"unit":"dollar"
+	},
+			
+	"Runtime":{
+		"description": "Time limit for GUROBI solver",
+		"value":7200,
+		"unit":"second"
+	},
+	"TimeLimit":{
+        "description": "Time limit for meta-heuristics algorithm",
+		"value":600,
+		"unit":"second"
+	},
+	
+	"TS":{		
+		"MaxNonImp":{
+			"description": "Tabu's stop criterion",
+			"value":10000
+		}
+	},
+	
+	"AVNS":{
+		"MaxNonImp":{
+			"description": "AVNS's stop criterion",
+			"value":10000
+		}
+	},
+	
+	"ASA":{
+        "InitTemp":{
+            "description": "SA's initial temperature",
+			"value":1000
+        },
+        "CoolRate":{
+            "description": "SA's cooling rate of temperature",
+			"value":0.9995
+        },
+        "MaxNonImp":{
+            "description": "SA's stop criterion",
+			"value":10000
+        }
+	}
+}

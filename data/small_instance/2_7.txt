@@ -1,0 +1,25 @@
+####################################################################################################
+#    Small instance of "2_7" is randomly generated.
+#    NOTE:
+#        (1) The first 2 lines is the location of depots.
+#        (2) The position code type has two option:
+#            0. GEO: longtitude-latitude coordinate
+#            1. XY: Cartesian coordinate
+#        (3) Each data record has six data fields as follwed:
+#            #ID, #____X____, #____Y____, #DELIVERY_DEMAND, #PICKUP_DEMAND, #OBSOLETE_DEMAND
+####################################################################################################
+
+CodeType=1
+DEPOT_NUM=2
+STATION_NUM=7
+VEHICLE_NUM=3
+
+0   32.9641 20.4363   0   0   0
+1   29.3892 29.8505   0   0   0
+2   17.5611 23.6525   0   6   2
+3   24.7341 21.8315   0   5   1
+4   26.3140 25.7034   0   2   5
+5   24.0923 22.6418   4   0   1
+6   20.7509 26.2746   4   0   5
+7   29.8580 13.0819   0   5   3
+8   29.9733 12.2802   0   4   5

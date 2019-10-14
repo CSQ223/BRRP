@@ -1,0 +1,28 @@
+####################################################################################################
+#    Small instance of "3_9" is randomly generated.
+#    NOTE:
+#        (1) The first 3 lines is the location of depots.
+#        (2) The position code type has two option:
+#            0. GEO: longtitude-latitude coordinate
+#            1. XY: Cartesian coordinate
+#        (3) Each data record has six data fields as follwed:
+#            #ID, #____X____, #____Y____, #DELIVERY_DEMAND, #PICKUP_DEMAND, #OBSOLETE_DEMAND
+####################################################################################################
+
+CodeType=1
+DEPOT_NUM=3
+STATION_NUM=9
+VEHICLE_NUM=5
+
+0   19.7768 26.7815   0   0   0
+1   24.5665 28.7357   0   0   0
+2   25.8433 13.6791   0   0   0
+3   18.5590 23.3475   0   2   4
+4   32.0324 19.4043   4   0   5
+5   15.2971 13.1623   6   0   4
+6   34.0817 10.8074   0   3   4
+7   21.6044 14.3603   4   0   4
+8   32.6545 16.5352   0   5   2
+9   33.8079 13.8507   8   0   2
+10  23.3688 11.6710   5   0   5
+11  30.3954 13.2708   0   5   2

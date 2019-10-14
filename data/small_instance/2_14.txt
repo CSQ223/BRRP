@@ -1,0 +1,32 @@
+####################################################################################################
+#    Small instance of "2_14" is randomly generated.
+#    NOTE:
+#        (1) The first 2 lines is the location of depots.
+#        (2) The position code type has two option:
+#            0. GEO: longtitude-latitude coordinate
+#            1. XY: Cartesian coordinate
+#        (3) Each data record has six data fields as follwed:
+#            #ID, #____X____, #____Y____, #DELIVERY_DEMAND, #PICKUP_DEMAND, #OBSOLETE_DEMAND
+####################################################################################################
+
+CodeType=1
+DEPOT_NUM=2
+STATION_NUM=14
+VEHICLE_NUM=5
+
+0   31.7875 20.3996   0   0   0
+1   10.6991 25.3753   0   0   0
+2   12.7973 17.0302   5   0   3
+3   22.8478 21.9063   0   3   4
+4   17.7620 27.4234   7   0   4
+5   21.2803 12.2732   2   0   1
+6   32.6529 21.3921   4   0   5
+7   32.5383 29.8263   4   0   3
+8   32.3649 22.7880   0   5   3
+9   14.2530 15.2700   3   0   4
+10  17.5573 13.0110   0   5   5
+11  16.0054 10.8969   0   2   5
+12  11.5689 29.9198   7   0   2
+13  17.6004 20.5184   0   8   4
+14  20.9219 12.1881   8   0   4
+15  26.3356 12.0762   0   7   2
