@@ -19,11 +19,11 @@ The result is exhibited as followed.
 
 2.`GUI mode`: double click `AppRun` to launch the GUI mode. The four steps are illustrated as followed.
 
-![启动Console mode](\picture\gui.png)
+![启动GUI mode](\picture\gui.png)
 
-![启动Console mode](\picture\parameter.png)
+![启动GUI mode](\picture\parameter.png)
 
-![启动Console mode](\picture\iteration.png)
+![启动GUI mode](\picture\iteration.png)
 
-![启动Console mode](\picture\solution.png)
+![启动GUI mode](\picture\solution.png)
 
