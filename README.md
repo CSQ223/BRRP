@@ -1,6 +1,6 @@
 BRRP refers the static Bike Repositioning and Recycling Problem.
 
-1. The folder `data` includes the large scale instances from New York City bike sharing system
+1. The folder `data` includes the large scale instances from New York City bike sharing system ...
 2. The folder `picture` includes several screenshot of the BRRP Solver
 3. The tar package `BRRP.7z` can be extracted directly which includes the executable solver
 4. The folder `Raw Computational Results` contains the raw computaional results
